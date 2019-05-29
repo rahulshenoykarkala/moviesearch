@@ -1625,23 +1625,27 @@ function filter(list, key){
     });
 }
 
-function search(key){
+function keysearch(list, key){
+    return list.filter(movie => 
+        movie.title.toUpperCase().indexOf(key.toUpperCase()) > -1 ||
+        movie.description.toUpperCase().indexOf(key.toUpperCase()) > -1 ||
+        movie.year === key ||
+        movie.genre.filter(genre => genre.toUpperCase() === key.toUpperCase()).length > 0 ||
+        movie.director.filter(director => director.toUpperCase() === key.toUpperCase()).length > 0
+    )
+}
+function search(key, attrfilter){
+    console.log(key, attrfilter)
     var filtered = movies;
-    console.log(typeof(key))
-    if(typeof(key) === "string"){
-        return filtered.filter(movie => 
-            movie.title.toUpperCase().indexOf(key.toUpperCase()) > -1 ||
-            movie.description.toUpperCase().indexOf(key.toUpperCase()) > -1 ||
-            movie.year === key ||
-            movie.genre.filter(genre => genre.toUpperCase() === key.toUpperCase()).length > 0 ||
-            movie.director.filter(director => director.toUpperCase() === key.toUpperCase()).length > 0
-        )
+    if(attrfilter === undefined){
+        return keysearch(filtered, key)
     }
-    else if(typeof(key) === "object"){
-        console.log(key instanceof Array)
-        if(key instanceof Array){
-            key.forEach(element => {
-                console.log(filtered.length)
+    else {
+        if(key !== undefined){
+            filtered = keysearch(filtered, key)
+        }
+        if(attrfilter instanceof Array){
+            attrfilter.forEach(element => {
                 filtered = filter(filtered, element)
             });
             return filtered;

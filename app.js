@@ -12,13 +12,11 @@ app.use(logger());
 app.use(koaBody());
 
 router.get('/search', async (ctx, next) => {
+    let key = ctx.request.query.key;
     let filter = ctx.request.query.filter;
-    if(filter[0] === "{" || filter[0] === "[") filter = JSON.parse(filter)
     console.log(filter)
-    if(filter === undefined)
-        ctx.body = movies;
-    else
-        ctx.body = await search(filter);
+    if(filter && (filter[0] === "{" || filter[0] === "[")) filter = JSON.parse(filter)
+    ctx.body = await search(key, filter);
 });
 
 router.get('/test', async (ctx, next) => {
@@ -31,4 +29,4 @@ router.get('/test', async (ctx, next) => {
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 3000);
