@@ -30,5 +30,5 @@ router.get('/test', async (ctx, next) => {
  
 app.use(router.routes());
 app.use(router.allowedMethods());
-app.listen(3000);
 
+app.listen(process.env.PORT || 5000);
