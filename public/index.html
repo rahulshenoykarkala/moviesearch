@@ -4,7 +4,192 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Movie Search API</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="./css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color sticky-top">
+        <a class="navbar-brand" href="#"><i class="fas fa-search"></i> &nbsp;Search API</a>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible content -->
+      
+      </nav>
+      <!--/.Navbar-->
+  <!-- Start your project here-->
+    <div style="height: 100vh;">
+        <div class="flex-center flex-column">
+            <h1 class="animated fadeIn mb-4">Movie Search API</h1>
+            <h5 class="animated fadeIn mb-5">Online REST API for Testing and Prototyping of movie Search/catalog application.</h5>
+            <div style="display: flex;">
+                <button class="btn aqua-gradient" style="color: white" onclick="document.location.href='#more'">Learn More</button>
+                <button class="btn blue-gradient" style="color: white" onclick="document.location.href='#spec'">API Specs</button>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100vh; padding-top: 100px;" id="more">
+        <h1 class="animated fadeIn text-center">What's in the store?</h1>
+        <div class="row mb-4 mt-4" style="width: 80%; margin: auto">
+            <div class="col-lg-4 col-xl-4 pb-3">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                <img src="/imgs/fall-1673041_1920.jpg" alt="Sample image for first version of blog listing" class="img-fluid">
+                <a>
+                    <div class="mask waves-effect waves-light"></div>
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-8 col-xl-8">
+                <!--Excerpt-->
+                <a href="" class="green-text">
+                <h6 class="font-weight-bold pb-1">
+                    <i class="fas fa-film"></i> Catalog</h6>
+                </a>
+                <h3 class="mb-4 font-weight-bold dark-grey-text">
+                <strong>Movie List with Attributes</strong>
+                </h3>
+                <p>Catalog of 60 movies with title, description, year of release, genre, total duration of movie, directors. 
+                    In addition, the API also provides the movie ratings from IMDB, Rotten Tomatoes and Metacrirtic. </p>
+                <p>
+                <a class="btn btn-success btn-md mb-3 waves-effect waves-light" onclick="document.location.href='#spec'">Go to Specs</a>
+            </div>
+        </div>
+        <div class="row" style="width: 80%; margin: auto;">
+            <div class="col-lg-8 col-xl-8 pb-3">
+                <!--Excerpt-->
+                <a href="" class="pink-text">
+                <h6 class="font-weight-bold pb-1">
+                    <i class="fas fa-search"></i> Search</h6>
+                </a>
+                <h3 class="mb-4 font-weight-bold dark-grey-text">
+                <strong>Search and Filter</strong>
+                </h3>
+                <p>Search for movies either with a keyword or filter or a combination of both. Keyword search is done on all movie attributes.
+                    Further, the filtering can be done with attributes year, director and genre. Other attribute filterings are not optimized 
+                    and may not work as expected.</p>
+                <a class="btn btn-pink btn-md mb-3 waves-effect waves-light" onclick="document.location.href='#spec'">Go to Specs</a>
+            </div>
+            <div class="col-lg-4 col-xl-4 mb-5">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                <img src="imgs/search-2041815_640.jpg" alt="Second image in the first version of blog listing" class="img-fluid">
+                <a>
+                    <div class="mask waves-effect waves-light"></div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100vh; padding-top: 100px;" id="spec">
+        <h1 class="animated fadeIn mb-4 text-center">API Specifications</h1>
+        <table class="table">
+            <thead class="black white-text">
+                <tr>
+                <th scope="col">API</th>
+                <th scope="col">Description</th>
+                <th scope="col">Params</th>
+                <th scope="col">Output</th>
+                <th scope="col">Examples</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>/movies</td>
+                    <td>Get All Movies</td>
+                    <td>
+                        <div class="ml-2">none</div>
+                    </td>
+                    <td>
+                        <div class="ml-2">Array of movie objects</div>
+                    </td>
+                    <td>
+                        <div class="ml-2">
+                            <a href='/movies' target="_blank">
+                                /movies
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/movies/{id}</td>
+                    <td>Get a movie by id</td>
+                    <td>
+                        <div class="ml-2">movie id</div>
+                    </td>
+                    <td>
+                        <div class="ml-2">Single movie object corresponding to id</div>
+                    </td>
+                    <td>
+                        <div class="ml-2">
+                            <a href='/movies/c56d7be4-14ee-4af1-ab6e-02d8c9165f22' target="_blank">
+                                /movies/c56d7be4-14ee-4af1-ab6e-02d8c9165f22
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/search</td>
+                    <td>Search movies</td>
+                    <td>
+                        <div class="ml-2">key</div>
+                        <div  class="ml-4"> String - keyword to be searched</div>
+                        <div class="ml-2">filter</div>
+                        <div  class="ml-4"> JSON - filter/filters to be applied</div>
+                    </td>
+                    <td>
+                        <div class="ml-2">Array of movie objects</div>
+                    </td>
+                    <td>
+                        <div class="ml-2">
+                            <a href='/search?key=2017' target="_blank">
+                                /search?key=2017
+                            </a>
+                        </div>
+                        <div class="ml-2">
+                            <a href='/search?filter={"genre":"Fantasy"}' target="_blank">
+                                /search?filter={"genre":"Fantasy"}
+                            </a>
+                        </div>
+                        <div class="ml-2">
+                            <a href='/search?key=titan&filter={"director":"Joe Russo"}' target="_blank">
+                                /search?key=titan&filter={"director":"Joe Russo"}
+                            </a>
+                        </div>
+                        <div class="ml-2">
+                            <a href='/search?key=home&filter=[{"year":"2018"},{"genre":"Thriller"}]' target="_blank">
+                                /search?key=home&filter=[{"year":"2018"},{"genre":"Thriller"}]
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+ 
+  <!-- Start your project here-->
+
+  <!-- SCRIPTS -->
+</body>
+
+</html>
+
   <title>Material Design Bootstrap</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
