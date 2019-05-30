@@ -21,10 +21,11 @@ const movies = [
                 "provider": "Facebook"
             },
             {
-                "rating": "97%",
+                "rating": "97",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "6f69864e-8d7d-4233-8a73-34067efe8c9a"
     },
     {
         "title": "Avengers: Infinity War",
@@ -45,14 +46,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "85%",
+                "rating": "85",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "68%",
+                "rating": "68",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "f14241f1-d406-4897-a941-d37dcd980b85"
     },
     {
         "title": "Incredibles 2",
@@ -72,14 +74,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "94%",
+                "rating": "94",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "6dc1a89c-9fd5-41f9-bac6-b7eba4a9ddea"
     },
     {
         "title": "A Star Is Born",
@@ -103,10 +106,11 @@ const movies = [
                 "provider": "Facebook"
             },
             {
-                "rating": "89%",
+                "rating": "89",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "be478296-3700-49a6-86be-77c57a57d860"
     },
     {
         "title": "A Quiet Place",
@@ -126,14 +130,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "95%",
+                "rating": "95",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4.6/5",
                 "provider": "Facebook"
             }
-        ]
+        ],
+        "id": "d695c774-c013-49fb-8f3f-f5df6adcaf79"
     },
     {
         "title": "Annihilation",
@@ -153,10 +158,11 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "88%",
+                "rating": "88",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "96294bb5-c7fe-4151-b89a-946e17ef9b54"
     },
     {
         "title": "Mission: Impossible – Fallout",
@@ -176,14 +182,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "97%",
+                "rating": "97",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "86%",
+                "rating": "86",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "56eef31f-d778-447c-a074-6df70b2fad0c"
     },
     {
         "title": "Aquaman",
@@ -203,14 +210,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "65%",
+                "rating": "65",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "55%",
+                "rating": "55",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "43a81596-be17-42be-a862-8f08e1bb890e"
     },
     {
         "title": "Ant-Man and the Wasp",
@@ -230,14 +238,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "88%",
+                "rating": "88",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "70%",
+                "rating": "70",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "721f0788-711c-49cb-ae65-848afb74b13a"
     },
     {
         "title": "Spider-Man: Into the Spider-Verse",
@@ -259,14 +268,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "97%",
+                "rating": "97",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "87%",
+                "rating": "87",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "c56d7be4-14ee-4af1-ab6e-02d8c9165f22"
     },
     {
         "title": "First Man",
@@ -290,10 +300,11 @@ const movies = [
                 "provider": "DVD Netflix"
             },
             {
-                "rating": "84%",
+                "rating": "84",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "7fb44e08-b96d-4549-b03e-4aaca9914d3f"
     },
     {
         "title": "The Ballad of Buster Scruggs",
@@ -314,14 +325,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "91%",
+                "rating": "91",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4/4",
                 "provider": "Roger Ebert"
             }
-        ]
+        ],
+        "id": "b7be5b40-ec97-48f3-aea0-b388b55de17d"
     },
     {
         "title": "Can You Ever Forgive Me?",
@@ -341,14 +353,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "98%",
+                "rating": "98",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "87%",
+                "rating": "87",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "cb1dc99a-8b40-4507-a439-08d7c4220e71"
     },
     {
         "title": "Widows",
@@ -368,14 +381,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "91%",
+                "rating": "91",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "84%",
+                "rating": "84",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "44dc1ef8-7fc6-437f-ae0b-29f66a870ab0"
     },
     {
         "title": "Isle of Dogs",
@@ -395,14 +409,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "90%",
+                "rating": "90",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "1.5/4",
                 "provider": "Roger Ebert"
             }
-        ]
+        ],
+        "id": "f699842f-f707-450f-a158-49efeeabb909"
     },
     {
         "title": "Suspiria",
@@ -422,14 +437,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "66%",
+                "rating": "66",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "3/5",
                 "provider": "Rolling Stone"
             }
-        ]
+        ],
+        "id": "81d61530-e165-4352-8566-25b5f46da216"
     },
     {
         "title": "Venom",
@@ -449,14 +465,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "29%",
+                "rating": "29",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "35%",
+                "rating": "35",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "2e0e0506-70b0-47f2-acb7-abe6a3c575eb"
     },
     {
         "title": "Bohemian Rhapsody",
@@ -476,14 +493,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "61%",
+                "rating": "61",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "49%",
+                "rating": "49",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "8284eaef-ea32-45f6-aa6a-7b37775f2aab"
     },
     {
         "title": "Solo: A Star Wars Story",
@@ -503,10 +521,11 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "70%",
+                "rating": "70",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "96af830a-5a54-49fb-8545-d31fe74f5914"
     },
     {
         "title": "Halloween",
@@ -526,14 +545,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "79%",
+                "rating": "79",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "67%",
+                "rating": "67",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "688262a6-76b6-4fda-b7d8-50b03103d841"
     },
     {
         "title": "Ocean's 8",
@@ -553,14 +573,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "69%",
+                "rating": "69",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "3/4",
                 "provider": "Roger Ebert"
             }
-        ]
+        ],
+        "id": "c1fda9e9-ac82-4d77-9057-fa6dd1130abd"
     },
     {
         "title": "The Nun",
@@ -584,10 +605,11 @@ const movies = [
                 "provider": "Facebook"
             },
             {
-                "rating": "26%",
+                "rating": "26",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "ae7ccebf-76e3-47a7-b358-5cb403a8b040"
     },
     {
         "title": "Ready Player One",
@@ -607,14 +629,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "72%",
+                "rating": "72",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "e359a92a-85f5-4f66-b587-3a81caf9352e"
     },
     {
         "title": "Jurassic World: Fallen Kingdom",
@@ -634,14 +657,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "48%",
+                "rating": "48",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "51%",
+                "rating": "51",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "edfa7639-022c-4f71-a151-c32d4a88257a"
     },
     {
         "title": "Ready Player One",
@@ -661,14 +685,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "72%",
+                "rating": "72",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "8afdfb85-5ed5-4d18-9337-104f15f9a00c"
     },
     {
         "title": "The Predator",
@@ -688,14 +713,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "32%",
+                "rating": "32",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "3/4",
                 "provider": "Roger Ebert"
             }
-        ]
+        ],
+        "id": "ee930a8f-a7b4-4f4c-9410-fc1f2d87d3c0"
     },
     {
         "title": "Rampage",
@@ -715,14 +741,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "52%",
+                "rating": "52",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "45%",
+                "rating": "45",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "1c5e6f64-b964-4720-bb13-23159f323fa8"
     },
     {
         "title": "Bumblebee",
@@ -742,14 +769,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "92%",
+                "rating": "92",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "66%",
+                "rating": "66",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "c32da401-d5bc-4d9e-b08d-7036d5719133"
     },
     {
         "title": "Sorry to Bother You",
@@ -769,14 +797,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "93%",
+                "rating": "93",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "80%",
+                "rating": "80",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "e2681454-2799-4564-801f-b06245fcb646"
     },
     {
         "title": "Overlord",
@@ -796,14 +825,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "81%",
+                "rating": "81",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "60%",
+                "rating": "60",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "6e224982-30a4-4ecd-aacc-bb059faa3b42"
     },
     {
         "title": "Love, Simon",
@@ -823,14 +853,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "91%",
+                "rating": "91",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "72%",
+                "rating": "72",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "f58c314a-603f-45a5-aca1-63a1e4667471"
     },
     {
         "title": "Vice",
@@ -850,14 +881,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "67%",
+                "rating": "67",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "61%",
+                "rating": "61",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "a9609639-1131-4608-b649-3b63e214f3f3"
     },
     {
         "title": "Crazy Rich Asians",
@@ -881,10 +913,11 @@ const movies = [
                 "provider": "Goodreads"
             },
             {
-                "rating": "91%",
+                "rating": "91",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "a8654818-b71f-489e-90cf-a2e73c863d39"
     },
     {
         "title": "Fantastic Beasts: The Crimes of Grindelwald",
@@ -904,14 +937,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "37%",
+                "rating": "37",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "52%",
+                "rating": "52",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "336a0d41-dee1-4f68-96e8-71e6c51fd98b"
     },
     {
         "title": "Mamma Mia! Here We Go Again",
@@ -931,14 +965,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "81%",
+                "rating": "81",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "60%",
+                "rating": "60",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "a5611ad4-4125-44e0-a1f2-6c295f4892b0"
     },
     {
         "title": "Blockers",
@@ -958,14 +993,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "83%",
+                "rating": "83",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "69%",
+                "rating": "69",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "349621c0-f882-4041-83ad-3c9d1ffe7ea6"
     },
     {
         "title": "Roma",
@@ -984,14 +1020,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "96%",
+                "rating": "96",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "96%",
+                "rating": "96",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "f2b1b0d5-1cbe-41d3-aee2-49723695027a"
     },
     {
         "title": "Unsane",
@@ -1011,14 +1048,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "80%",
+                "rating": "80",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "63%",
+                "rating": "63",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "bb2cbd90-4ace-4e7a-8250-fd3e5abadec7"
     },
     {
         "title": "96",
@@ -1045,7 +1083,8 @@ const movies = [
                 "rating": "5/5",
                 "provider": "News18.com"
             }
-        ]
+        ],
+        "id": "d580564c-02ba-4d59-8374-f4df99a34399"
     },
     {
         "title": "Hotel Transylvania 3: Summer Vacation",
@@ -1065,14 +1104,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "61%",
+                "rating": "61",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "3/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "d4722e29-63e6-4b58-8a1f-0d8285e6ce56"
     },
     {
         "title": "The Old Man & the Gun",
@@ -1092,14 +1132,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "93%",
+                "rating": "93",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "890c4075-a0fb-431f-9e90-057b2d4f52a1"
     },
     {
         "title": "A Wrinkle in Time",
@@ -1115,7 +1156,7 @@ const movies = [
         ],
         "reviews": [
             {
-                "rating": "42%",
+                "rating": "42",
                 "provider": "Rotten Tomatoes"
             },
             {
@@ -1126,7 +1167,8 @@ const movies = [
                 "rating": "3/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "6d82008e-9d6a-494f-a17a-011eda339ada"
     },
     {
         "title": "12 Strong",
@@ -1146,14 +1188,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "51%",
+                "rating": "51",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "54%",
+                "rating": "54",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "61c98a75-bb3e-4e26-a3f9-4480e522c2c2"
     },
     {
         "title": "The Other Side of the Wind",
@@ -1173,14 +1216,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "82%",
+                "rating": "82",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4/4",
                 "provider": "Roger Ebert"
             }
-        ]
+        ],
+        "id": "62738746-2084-433b-a2d3-d8a141f8369a"
     },
     {
         "title": "The Grinch",
@@ -1201,14 +1245,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "59%",
+                "rating": "59",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "3/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "38c640d9-e158-46ea-af77-ca69e25ea955"
     },
     {
         "title": "Glass",
@@ -1228,14 +1273,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "43%",
+                "rating": "43",
                 "provider": "Metacritic"
             },
             {
-                "rating": "38%",
+                "rating": "38",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "23c433cb-2996-44b0-b26c-c014ae9cdcdc"
     },
     {
         "title": "The Kid Who Would Be King",
@@ -1255,14 +1301,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "90%",
+                "rating": "90",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4/5",
                 "provider": "Common Sense Media"
             }
-        ]
+        ],
+        "id": "1da04892-f562-43f2-ba77-75b568b27715"
     },
     {
         "title": "Miss Bala",
@@ -1282,14 +1329,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "22%",
+                "rating": "22",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "41%",
+                "rating": "41",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "c3783b27-08b9-413b-9d88-3d43eec7ace4"
     },
     {
         "title": "The Lego Movie 2: The Second Part",
@@ -1309,14 +1357,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "85%",
+                "rating": "85",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "65%",
+                "rating": "65",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "54227fc0-099a-43fd-a65e-d880d463e440"
     },
     {
         "title": "The Fate of the Furious",
@@ -1336,14 +1385,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "56%",
+                "rating": "56",
                 "provider": "Metacritic"
             },
             {
-                "rating": "67%",
+                "rating": "67",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "62a5eae9-ff34-4ecc-9b6a-92bd1c2842cb"
     },
     {
         "title": "Dunkirk",
@@ -1363,14 +1413,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "94%",
+                "rating": "94",
                 "provider": "Metacritic"
             },
             {
-                "rating": "92%",
+                "rating": "92",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "da40525e-6cda-4ee3-8698-5952c3d247d9"
     },
     {
         "title": "Wonder Woman",
@@ -1390,14 +1441,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "93%",
+                "rating": "93",
                 "provider": "Rotten Tomatoes"
             },
             {
                 "rating": "4.6/5",
                 "provider": "Facebook"
             }
-        ]
+        ],
+        "id": "0ba559aa-8243-492c-9b3b-e8d291c0364d"
     },
     {
         "title": "Star Wars: The Last Jedi",
@@ -1417,14 +1469,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "85%",
+                "rating": "85",
                 "provider": "Metacritic"
             },
             {
-                "rating": "91%",
+                "rating": "91",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "1378cfa9-f7f0-4ab9-b840-9edaabc49978"
     },
     {
         "title": "Thor: Ragnarok",
@@ -1444,14 +1497,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "93%",
+                "rating": "93",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "74%",
+                "rating": "74",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "fe370fa1-a7b2-44e3-b274-4fa9d212b3a3"
     },
     {
         "title": "Blade Runner 2049",
@@ -1471,14 +1525,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "87%",
+                "rating": "87",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "81%",
+                "rating": "81",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "4361b560-b3ba-4045-bf7d-8db34f62bde8"
     },
     {
         "title": "Spider-Man: Homecoming",
@@ -1498,14 +1553,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "73%",
+                "rating": "73",
                 "provider": "Metacritic"
             },
             {
-                "rating": "92%",
+                "rating": "92",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "17759e57-c647-41ab-b3d6-bb3197d44a91"
     },
     {
         "title": "Logan",
@@ -1525,14 +1581,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "93%",
+                "rating": "93",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "77%",
+                "rating": "77",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "a344540f-aa2d-4e48-921c-9a651454686f"
     },
     {
         "title": "Get Out",
@@ -1552,14 +1609,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "98%",
+                "rating": "98",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "84%",
+                "rating": "84",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "df4fd0bd-41c0-43bf-908c-bf99427a0424"
     },
     {
         "title": "War for the Planet of the Apes",
@@ -1579,14 +1637,15 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "93%",
+                "rating": "93",
                 "provider": "Rotten Tomatoes"
             },
             {
-                "rating": "82%",
+                "rating": "82",
                 "provider": "Metacritic"
             }
-        ]
+        ],
+        "id": "aee34635-0644-4e47-aba5-ba9f26c269f1"
     },
     {
         "title": "Baby Driver",
@@ -1606,16 +1665,18 @@ const movies = [
                 "provider": "IMDb"
             },
             {
-                "rating": "86%",
+                "rating": "86",
                 "provider": "Metacritic"
             },
             {
-                "rating": "93%",
+                "rating": "93",
                 "provider": "Rotten Tomatoes"
             }
-        ]
+        ],
+        "id": "d5aae667-5353-44c5-ad38-f0611a1d3bf9"
     }
 ]
+
 
 function filter(list, key){
     return list.filter(movie => {
@@ -1634,6 +1695,7 @@ function keysearch(list, key){
         movie.director.filter(director => director.toUpperCase() === key.toUpperCase()).length > 0
     )
 }
+
 function search(key, attrfilter){
     console.log(key, attrfilter)
     var filtered = movies;
@@ -1641,6 +1703,7 @@ function search(key, attrfilter){
         return keysearch(filtered, key)
     }
     else {
+        console.log("enter 1")
         if(key !== undefined){
             filtered = keysearch(filtered, key)
         }
@@ -1651,7 +1714,7 @@ function search(key, attrfilter){
             return filtered;
         }
         else{
-            return filter(filtered, key)
+            return filter(filtered, attrfilter)
         }
     }
     return [];
